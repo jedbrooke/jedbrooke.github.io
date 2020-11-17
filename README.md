@@ -1,12 +1,12 @@
 ## Here's some stuff that I made
 
 #### Coming soon:
-1. [CUDA JPEG compressor](https://github.com/jedbrooke/toojpeg)
-    A fork of [stbrumme/toojpeg](https://github.com/stbrumme/toojpeg), adding CUDA acceleration to a simple jpeg compressor.
-2. Auto trace Blender Add-on
-    Coming soon. The idea is to make something like the Auto-Trace feature in Adobe After Effect, but to create verticies instead of masks.
-3. Probably some other stuff
-    Yeah programs!
+1. [CUDA JPEG compressor](https://github.com/jedbrooke/toojpeg)<br>
+A fork of [stbrumme/toojpeg](https://github.com/stbrumme/toojpeg), adding CUDA acceleration to a simple jpeg compressor.
+2. Auto trace Blender Add-on<br>
+Coming soon. The idea is to make something like the Auto-Trace feature in Adobe After Effect, but to create verticies instead of masks.
+3. Probably some other stuff<br>
+Yeah programs!
 
 <!-- ### Markdown
 
