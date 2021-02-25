@@ -1,16 +1,33 @@
 ## Here's some stuff that I made
 
+### Completed Projects
+1. [Mutlithreading enhancement for jumpcutter](https://github.com/jedbrooke/jumpcutter)<br>
+A fork of [carykh/jumpcutter](https://github.com/carykh/jumpcutter), adding multithreading support for massive speedups in runtime, as low as 20% of the time taken for the main processing.<br>
+
+1. [ChromDino-FPGA](https://github.com/jedbrooke/ChromeDino-FPGA)<br>
+A project in Verilog to implement a basic version of the Google Chrome no internet dinosaur game, in an FPGA <br>
+This was a final project for the csm152a course at University of California, Los Angeles<br>
+
+1. [Python Image Fetcher and Reviewer (PIFAR)](https://github.com/jedbrooke/cis41b-final-project)<br>
+A Gui client for fetching results from imgur's API, and filtering them.<br>
+This was a final project from the cis41b advanced python course at De Anza college<br>
+
+1. [A Simple Store in C++](https://github.com/jedbrooke/CIS-22C-Team-4)<br>
+This project is a simple store interface with a GUI written entirely in C++/GTK.<br>
+This was a final project from the cis22c data strcutures course at De Anza college<br>
+
+
+
+### WIPS
 1. [CUDA JPEG compressor](https://github.com/jedbrooke/toojpeg)<br>
 A fork of [stbrumme/toojpeg](https://github.com/stbrumme/toojpeg), adding CUDA acceleration to a simple jpeg compressor. <br>
-Status: WIP
-2. [ChromDino-FPGA](https://github.com/jedbrooke/ChromeDino-FPGA)<br>
-A project in Verilog to implement a basic version of the Google Chrome no internet dinosaur game, in an FPGA <br>
-Status: Complete
-3. [Verilog-3D-graphics](https://github.com/jedbrooke/verilog-3d-graphics)<br>
+
+1. [Verilog-3D-graphics](https://github.com/jedbrooke/verilog-3d-graphics)<br>
 A project where I explore the world of 3D graphics, both raster and ray tracing, in Verilog and FPGAs<br>
-Status: very WIP
+
+
 ### Coming Soon!
-4. FPGA Face Detection<!-- [FPGA Face Detection](https://github.com/jedbrooke/FPGA-face-detection) --><br>
+1. FPGA Face Detection<!-- [FPGA Face Detection](https://github.com/jedbrooke/FPGA-face-detection) --><br>
 Face dection, on an FPGA! A verilog implementation of a simple facial detection (not recognition) algorithm<br>
 Status: coming soon
 
