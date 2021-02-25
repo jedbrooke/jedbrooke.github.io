@@ -1,6 +1,5 @@
 ## Here's some stuff that I made
 
-#### Coming soon:
 1. [CUDA JPEG compressor](https://github.com/jedbrooke/toojpeg)<br>
 A fork of [stbrumme/toojpeg](https://github.com/stbrumme/toojpeg), adding CUDA acceleration to a simple jpeg compressor. <br>
 Status: WIP
@@ -10,8 +9,7 @@ Status: Complete
 3. [Verilog-3D-graphics](https://github.com/jedbrooke/verilog-3d-graphics)<br>
 A project where I explore the world of 3D graphics, both raster and ray tracing, in Verilog and FPGAs<br>
 Status: very WIP
-
-coming soon
+### Coming Soon!
 4. FPGA Face Detection<!-- [FPGA Face Detection](https://github.com/jedbrooke/FPGA-face-detection) --><br>
 Face dection, on an FPGA! A verilog implementation of a simple facial detection (not recognition) algorithm<br>
 Status: coming soon
