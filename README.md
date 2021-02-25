@@ -4,7 +4,7 @@
 1. [Mutlithreading enhancement for jumpcutter](https://github.com/jedbrooke/jumpcutter)<br>
 A fork of [carykh/jumpcutter](https://github.com/carykh/jumpcutter), adding multithreading support for massive speedups in runtime, as low as 20% of the time taken for the main processing.<br>
 
-1. [ChromDino-FPGA](https://github.com/jedbrooke/ChromeDino-FPGA)<br>
+1. [ChromeDino-FPGA](https://github.com/jedbrooke/ChromeDino-FPGA)<br>
 A project in Verilog to implement a basic version of the Google Chrome no internet dinosaur game, in an FPGA <br>
 This was a final project for the csm152a course at University of California, Los Angeles<br>
 
@@ -18,12 +18,16 @@ This was a final project from the cis22c data strcutures course at De Anza colle
 
 
 
-### WIPS
-1. [CUDA JPEG compressor](https://github.com/jedbrooke/toojpeg)<br>
-A fork of [stbrumme/toojpeg](https://github.com/stbrumme/toojpeg), adding CUDA acceleration to a simple jpeg compressor. <br>
+### Works in Progress
+1. [RISCV-CPU](https://github.com/jedbrooke/RISCV-CPU)<br>
+A RISCV CPU core implementation in Verilog, supports most of the RV32/64I instruction set. <br>
 
 1. [Verilog-3D-graphics](https://github.com/jedbrooke/verilog-3d-graphics)<br>
 A project where I explore the world of 3D graphics, both raster and ray tracing, in Verilog and FPGAs<br>
+
+1. [CUDA JPEG compressor](https://github.com/jedbrooke/toojpeg)<br>
+A fork of [stbrumme/toojpeg](https://github.com/stbrumme/toojpeg), adding CUDA acceleration to a simple jpeg compressor. <br>
+
 
 
 ### Coming Soon!
