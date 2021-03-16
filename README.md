@@ -1,8 +1,13 @@
 ## Here's some stuff that I made
 
 ### Completed Projects
+1. [FPGA Face Detection](https://github.com/jedbrooke/FPGA-face-detection)<br>
+Face dection, on an FPGA! A verilog implementation of a simple facial detection (not recognition) algorithm<br>
+![Face Detection Demo](images/face.gif)
+Uses Verilator and OpenCV to interface the verilog simulation with a webcam. 
+
 1. [Mutlithreading enhancement for jumpcutter](https://github.com/jedbrooke/jumpcutter)<br>
-A fork of [carykh/jumpcutter](https://github.com/carykh/jumpcutter), adding multithreading support for massive speedups in runtime, as low as 20% of the time taken for the main processing.<br>
+A fork of [carykh/jumpcutter](https://github.com/carykh/jumpcutter), adding multithreading support for massive speedups in runtime, as fast as 5x throughput for main processing.<br>
 
 1. [ChromeDino-FPGA](https://github.com/jedbrooke/ChromeDino-FPGA)<br>
 A project in Verilog to implement a basic version of the Google Chrome no internet dinosaur game, in an FPGA <br>
@@ -30,10 +35,12 @@ A fork of [stbrumme/toojpeg](https://github.com/stbrumme/toojpeg), adding CUDA a
 
 
 
-### Coming Soon!
-1. FPGA Face Detection<!-- [FPGA Face Detection](https://github.com/jedbrooke/FPGA-face-detection) --><br>
-Face dection, on an FPGA! A verilog implementation of a simple facial detection (not recognition) algorithm<br>
+<!-- ### Coming Soon!
+
 Status: coming soon
+
+1. Verilog Bitonic Sorter<br>
+A parallel Bitonic sort implementation in Verilog. -->
 
 
 
