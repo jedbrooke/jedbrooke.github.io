@@ -1,9 +1,13 @@
 ## Here's some stuff that I made
 
 ### Completed Projects
+1. [WebUI for Auto-editor](https://github.com/jedbrooke/auto-edtior)<br>
+Adds a web-ui to the command line program [WyattBlue/auto-editor](https://github.com/WyattBlue/auto-editor). Turns the program into a cloud service where users can upload their video, and download it when it's done processing. Live now at [auto-editor.ddns.net](auto-editor.ddns.net)!
+![auto-editor](https://raw.githubusercontent.com/wyattblue/auto-editor/master/articles/imgs/auto-editor_banner.png)
+
 1. [FPGA Face Detection](https://github.com/jedbrooke/FPGA-face-detection)<br>
-Face dection, on an FPGA! A verilog implementation of a simple facial detection (not recognition) algorithm<br>
-![Face Detection Demo](images/face.gif)
+Face detection, on an FPGA! A verilog implementation of a simple facial detection algorithm<br>
+![Face Detection Demo](images/face.gif)<br>
 Uses Verilator and OpenCV to interface the verilog simulation with a webcam. 
 
 1. [Mutlithreading enhancement for jumpcutter](https://github.com/jedbrooke/jumpcutter)<br>
@@ -17,13 +21,17 @@ This was a final project for the csm152a course at University of California, Los
 A Gui client for fetching results from imgur's API, and filtering them.<br>
 This was a final project from the cis41b advanced python course at De Anza college<br>
 
+
 1. [A Simple Store in C++](https://github.com/jedbrooke/CIS-22C-Team-4)<br>
 This project is a simple store interface with a GUI written entirely in C++/GTK.<br>
-This was a final project from the cis22c data strcutures course at De Anza college<br>
+This was a final project from the cis22c data structures course at De Anza college<br>
 
 
 
 ### Works in Progress
+1. [Kmemes](https://github.com/jedbrooke/kmemes)<br>
+Exploring the machine learning algorithm kmeans to create and classify images from the internet. Also exploring techniques in accelerating ML algorithms by parallelization. 
+
 1. [RISCV-CPU](https://github.com/jedbrooke/RISCV-CPU)<br>
 A RISCV CPU core implementation in Verilog, supports most of the RV32/64I instruction set. <br>
 
