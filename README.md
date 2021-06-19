@@ -1,7 +1,7 @@
 ## Here's some stuff that I made
 
 ### Completed Projects
-1. [WebUI for Auto-editor](https://github.com/jedbrooke/auto-edtior)<br>
+1. [WebUI for Auto-editor](https://github.com/jedbrooke/auto-editor)<br>
 Adds a web-ui to the command line program [WyattBlue/auto-editor](https://github.com/WyattBlue/auto-editor). Turns the program into a cloud service where users can upload their video, and download it when it's done processing. Live now at [auto-editor.ddns.net](https://auto-editor.ddns.net)!
 ![auto-editor](https://raw.githubusercontent.com/wyattblue/auto-editor/master/articles/imgs/auto-editor_banner.png)
 
