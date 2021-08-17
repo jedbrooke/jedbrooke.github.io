@@ -1,8 +1,15 @@
 ## Here's some stuff that I made
 
 ### Completed Projects
+1. [Kmemes](https://github.com/jedbrooke/kmemes)<br>
+<!-- TODO add some pictures -->
+Exploring the Kmeans clustering algorithm to classify and synthesize images from the internet. Implements GPU acceleration using CUDA C++. 
+
+1. [CUDA-BWT](https://github.com/jedbrooke/cuda_bwt)<br>
+A GPU based implementation of Burrows Wheeler Transform, commonly used in data compression and bioinformatics. It performs up to 10x faster than an equivalent CPU implentation in some cases.
+
 1. [WebUI for Auto-editor](https://github.com/jedbrooke/auto-editor)<br>
-Adds a web-ui to the command line program [WyattBlue/auto-editor](https://github.com/WyattBlue/auto-editor). Turns the program into a cloud service where users can upload their video, and download it when it's done processing. Live now at [auto-editor.ddns.net](https://auto-editor.ddns.net)!
+Adds a web-ui to the command line program [WyattBlue/auto-editor](https://github.com/WyattBlue/auto-editor). Turns the program into a cloud service where users can upload their video, and download it when it's done processing.
 ![auto-editor](https://raw.githubusercontent.com/wyattblue/auto-editor/master/articles/imgs/auto-editor_banner.png)
 
 1. [FPGA Face Detection](https://github.com/jedbrooke/FPGA-face-detection)<br>
@@ -29,9 +36,6 @@ This was a final project from the cis22c data structures course at De Anza colle
 
 
 ### Works in Progress
-1. [Kmemes](https://github.com/jedbrooke/kmemes)<br>
-Exploring the machine learning algorithm kmeans to create and classify images from the internet. Also exploring techniques in accelerating ML algorithms by parallelization. 
-
 1. [RISCV-CPU](https://github.com/jedbrooke/RISCV-CPU)<br>
 A RISCV CPU core implementation in Verilog, supports most of the RV32/64I instruction set. <br>
 
