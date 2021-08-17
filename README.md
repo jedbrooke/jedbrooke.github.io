@@ -1,8 +1,9 @@
 ## Here's some stuff that I made
 
 ### Completed Projects
-1. [Kmemes](https://github.com/jedbrooke/kmemes)<br>
+
 <!-- TODO add some pictures -->
+1. [Kmemes](https://github.com/jedbrooke/kmemes)<br>
 Exploring the Kmeans clustering algorithm to classify and synthesize images from the internet. Implements GPU acceleration using CUDA C++. 
 
 1. [CUDA-BWT](https://github.com/jedbrooke/cuda_bwt)<br>
