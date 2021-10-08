@@ -2,9 +2,10 @@
 
 ### Completed Projects
 
-<!-- TODO add some pictures -->
 1. [Kmemes](https://github.com/jedbrooke/kmemes)<br>
 Exploring the Kmeans clustering algorithm to classify and synthesize images from the internet. Implements GPU acceleration using CUDA C++. 
+Generated Handwritten digits:
+![generated-digits](images/means.png)
 
 1. [CUDA-BWT](https://github.com/jedbrooke/cuda_bwt)<br>
 A GPU based implementation of Burrows Wheeler Transform, commonly used in data compression and bioinformatics. It performs up to 10x faster than an equivalent CPU implentation in some cases.
