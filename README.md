@@ -1,6 +1,8 @@
 ## Here's some stuff that I made
 
 ### Completed Projects
+1. [Auto Editor on Golem](https://github.com/jedbrooke/golem-auto-editor)<br>
+A requestor app for the Golem Network decentralized super computer. Allows for offloading the video processing done by auto editor to many computers on the network to render videos in a fraction of the time of a single computer.
 
 1. [Kmemes](https://github.com/jedbrooke/kmemes)<br>
 Exploring the Kmeans clustering algorithm to classify and synthesize images from the internet. Implements GPU acceleration using CUDA C++. 
