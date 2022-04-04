@@ -1,6 +1,10 @@
 ## Here's some stuff that I made
 
 ### Completed Projects
+1. [Pi Spigot](https://github.com/jedbrooke/pi_spigot)<br>
+this pi spigot uses high performance C++ and inline x86 asm to find far out digits of pi in base 16
+
+
 1. [Auto Editor on Golem](https://github.com/jedbrooke/golem-auto-editor)<br>
 A requestor app for the Golem Network decentralized super computer. Allows for offloading the video processing done by auto editor to many computers on the network to render videos in a fraction of the time of a single computer.
 
