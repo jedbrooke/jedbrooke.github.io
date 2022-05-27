@@ -4,6 +4,8 @@
 1. [Auto Editor on Golem](https://github.com/jedbrooke/golem-auto-editor)<br>
 Now Live on [https://auto-editor.online](https://auto-editor.online)! <br>
 A webUI for a Golem requestor app that runs on the Golem Network decentralized super computer. Allows for offloading the video processing done by [WyattBlue/auto-editor](https://github.com/WyattBlue/auto-editor) to many computers on the network to render videos in a fraction of the time of a single computer.
+![auto-editor](https://raw.githubusercontent.com/wyattblue/auto-editor/master/articles/imgs/auto-editor_banner.png)
+
 
 1. [Pi Spigot](https://github.com/jedbrooke/pi_spigot)<br>
 this pi spigot uses high performance C++ and inline x86 asm to find far out digits of pi in base 16
@@ -15,8 +17,6 @@ Generated Handwritten digits:
 
 1. [CUDA-BWT](https://github.com/jedbrooke/cuda_bwt)<br>
 A GPU based implementation of Burrows Wheeler Transform, commonly used in data compression and bioinformatics. It performs up to 10x faster than an equivalent CPU implentation in some cases.
-
-![auto-editor](https://raw.githubusercontent.com/wyattblue/auto-editor/master/articles/imgs/auto-editor_banner.png)
 
 1. [FPGA Face Detection](https://github.com/jedbrooke/FPGA-face-detection)<br>
 Face detection, on an FPGA! A verilog implementation of a simple facial detection algorithm<br>
