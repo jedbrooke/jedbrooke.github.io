@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+        <style type="text/css">
+            @page {
+                margin: 0;
+            }
+            body{
+                margin: 0.2in;
+                font: helvetica;
+            }
+
+            /* #header{ */
+                /* padding-top: 40px; */
+            /* } */
+            #main-name {
+                font-size: 3.7em;
+                margin: 0px;
+            }
+            #contact-info {
+                list-style: none;
+                font-size: 12px;
+            }
+            .section-title {
+                text-transform: uppercase;
+                font-weight: bold;
+                font-size: 18px;
+                margin: 0;
+
+            }
+            .section-item-body{
+                font-size: 14px;
+            }
+            .section-item-title {
+                font-weight: bold;
+                font-size: 16px;
+                padding-top: 0px;
+                padding-bottom: 0px;
+                margin: 2px;
+            }
+            .section-item-footer {
+                font-size: 16px;
+                padding-top: 0px;
+                padding-bottom: 0px;
+                margin: 2px;
+            }
+            .sub-title-2 {
+                font-style: italic;
+            }
+            .sub-title{
+                font-weight: bold;
+            }
+            .time-descriptor{
+                font-size: 11px;
+                margin: 0;
+                float: right;
+            }
+            .my-separator{
+                display: block;
+                margin: 1px;
+                height: 2px !important;
+                border: none;
+                color: #111 !important;
+                background-color: #111 !important;
+                border-top: 1px solid #111;
+            }
+            .information-list{
+                margin:0px;
+            }
+            #tagline{
+                margin:0px;
+            }
+            .nowrap {
+                white-space: nowrap;
+            }
+
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <div class="row" id="header"> 
+                <div class="col-8">
+                    <p id="main-name">Jasper&nbsp;Edbrooke</p>
+                </div>
+                <div class="col-4">
+                    <ul id="contact-info">
+                        <li>Culver City, CA 90230</li>
+                        <li>408-887-1014</li>
+                        <li>jasperedbrooke@gmail.com</li>
+                        <li>https://jedbrooke.tech</li>
+                    </ul>
+                </div>
+            </div>
+            <hr class="my-separator">
+            <div class="row">
+                <p id="tagline">Looking for a position where I can grow and apply my passion for developing software, and to explore applications in graphics, machine learning, and other workloads.</p>
+            </div>
+            <hr class="my-separator">
+            <div class="row" id="education">
+                <p class="section-title">education</p>
+                <div class="col">
+                    <div class="row section-item">
+                        <p class="section-item-title">University Of California, Los Angeles</p>
+                        <div class="section-item-body">
+                            <span class="sub-title-1">Los Angeles, CA</span> &mdash; <span class="sub-title-2">Bachelor's degree in computer science</span>
+                            <span class="time-descriptor">graduated Dec 2021</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <hr class="my-separator">
+            <div class="row" id="projects">
+                <p class="section-title">projects</p>
+                <div class="col">
+                    <!-- <div class="row section-item">
+                        <p class="section-item-title">Kmemes: CUDA Accelerated Kmeans solver</p>
+                        <div class="section-item-body">
+                            <ul class="information-list">
+                                <li>Implements the Kmeans algorithm to cluster data points</li>
+                                <li>Written in C++/CUDA for GPU hardware acceleration</li>
+                            </ul>
+                        </div>
+                    </div> -->
+                    <div class="row section-item">
+                        <p class="section-item-title">Pi Spigot</p>
+                        <div class="section-item-body">
+                            <ul class="information-list nowrap">
+                                <li>Generates extremely distant digits of Pi through Bellard's formula</li>
+                                <li>Written in C++ with inline x86asm and AVX vectorization for high performance</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="row section-item">
+                        <p class="section-item-title">WebUI and Cloud Service for Auto-Editor</p>
+                        <div class="section-item-body">
+                            <ul class="information-list nowrap">
+                                <li>Offers a web based front end for the popular command line automatic video editor</li>
+                                <li>Hosts the backend in the cloud so users can upload their video, then download it after processing</li>
+                                <li>Offloads video processing to Golem Network distributed supercomputing cluster</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="row section-item">
+                        <p class="section-item-title">FPGA Face Detection</p>
+                        <div class="section-item-body">
+                            <ul class="information-list nowrap">
+                                <li>Implements a face detection algorithm in detect the location of a face in an image</li>
+                                <li>Connects a Verilog simulation with live webcam feed</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <!-- <div class="row section-item">
+                        <p class="section-item-title">RISCV-CPU</p>
+                        <div class="section-item-body">
+                            <ul class="information-list">
+                                <li>A simple single cycle RISCV CPU design in Verilog RTL</li>
+                                <li>Capable of running RISCV assembly programs, supports most of the RV32/64I instruction set</li>
+                            </ul>
+                        </div>
+                    </div> -->
+                </div>
+            </div>
+            <hr class="my-separator">
+            <div class="row" id="experience">
+                <p class="section-title">experience</p>
+                <div class="col">
+                    <div class="row section-item">
+                        <p class="section-item-title">CompTechs</p>
+                        <div class="section-item-body">
+                            <span class="sub-title-1">Cupertino, CA</span> &mdash; <span class="sub-title-2">Computer Lab Technician</span>
+                            <span class="time-descriptor">Sept 2018 - Aug 2019</span>
+                            <ul class="information-list nowrap">
+                                <li>Diagnosing and fixing issues such as laptops failing to boot, by replacing defective components</li>
+                                <li>Installing Windows 10 and applications, software, drivers for compatibility with operating system</li>
+                                <li>Refurbishing, repairing and providing computers for needy and disadvantaged students</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="row section-item">
+                        <p class="section-item-title">CLIPCO</p>
+                        <div class="section-item-body">
+                            <span class="sub-title-1">Cupertino, CA</span> &mdash; <span class="sub-title-2">Lead Full Stack Developer</span>
+                            <span class="time-descriptor">Jun 2017 - Apr 2019</span>
+                            <ul class="information-list nowrap">
+                                <li>Designing and creating a website (cusdclipco.org) in HTML and CSS, with Bootstrap</li>
+                                <li>Maintaining the website, adding new content, with the frontend in HTML and CSS and backend in PHP</li>
+                                <li>Collaborating with a committee to discuss content and features of the website </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <hr class="my-separator">
+            <div class="row" id="skills">
+                <p class="section-title">skills</p>
+                <div class="col">
+                    <div class="row section-item">
+                        <p class="section-item-title">Programming Languages:</p>
+                        <div class="section-item-body">
+                            <ul class="information-list">
+                                <li>Proficient: Python, C/C++, CUDA, Verilog</li>
+                                <li>Familiar: Java, HTML, Javascript, PHP, Makefile, </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="row section-item">
+                        <p class="section-item-title">Courses</p>
+                        <div class="section-item-body">
+                            <ul class="information-list">
+                                <li>Operating Systems Principles, Computer Systems Architecture, Logic Design of Digital Systems, Introduction to Computer Graphics, Digital Design Laboratory, Introduction to Machine Learning, Data Science</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="row section-item">
+                        <p class="section-item-title">Human Languages:</p>
+                        <div class="section-item-body">
+                            <ul class="information-list">
+                                <li>Reading, Writing, Listening, &amp; Speaking in English and Mandarin</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="row section-item">
+                        <p class="section-item-title">Other:</p>
+                        <div class="section-item-body">
+                            <ul class="information-list">
+                                <li>FPGA, Docker, Unix/Linux, Problem Solving, Debugging</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

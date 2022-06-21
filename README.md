@@ -1,5 +1,7 @@
 ## Here's some stuff that I made
 
+## [Resume](resume.html)
+
 ### Completed Projects
 1. [Auto Editor on Golem](https://github.com/jedbrooke/golem-auto-editor)<br>
 Now Live on [https://auto-editor.online](https://auto-editor.online)! <br>
