@@ -9,7 +9,7 @@
             }
             body{
                 margin: 0.2in;
-                font: helvetica;
+                /* font: helvetica; */
             }
 
             /* #header{ */
@@ -93,10 +93,10 @@
                     </ul>
                 </div>
             </div>
-            <hr class="my-separator">
+            <!-- <hr class="my-separator">
             <div class="row">
-                <p id="tagline">Looking for a position where I can grow and apply my passion for developing software, and to explore applications in graphics, machine learning, and other workloads.</p>
-            </div>
+                <p id="tagline"></p>
+            </div> -->
             <hr class="my-separator">
             <div class="row" id="education">
                 <p class="section-title">education</p>
@@ -104,7 +104,7 @@
                     <div class="row section-item">
                         <p class="section-item-title">University Of California, Los Angeles</p>
                         <div class="section-item-body">
-                            <span class="sub-title-1">Los Angeles, CA</span> &mdash; <span class="sub-title-2">Bachelor's degree in computer science</span>
+                            <span class="sub-title-1">Los Angeles, CA</span> &mdash; <span class="sub-title-2">Bachelor's degree in Computer Science</span>
                             <span class="time-descriptor">graduated Dec 2021</span>
                         </div>
                     </div>
@@ -124,30 +124,39 @@
                         </div>
                     </div> -->
                     <div class="row section-item">
-                        <p class="section-item-title">Pi Spigot</p>
+                        <p class="section-item-title">Pi Spigot (<a href="https://github.com/jedbrooke/pi_spigot">Github repo</a>)</p>
                         <div class="section-item-body">
                             <ul class="information-list nowrap">
-                                <li>Generates extremely distant digits of Pi through Bellard's formula</li>
-                                <li>Written in C++ with inline x86asm and AVX vectorization for high performance</li>
+                                <li>Sought the world record breaking calculation of 314 quadrillionth digit of Pi</li>
+                                <li>Employed C++ with inline x86asm and AVX vectorization for high performance</li>
                             </ul>
                         </div>
                     </div>
                     <div class="row section-item">
-                        <p class="section-item-title">WebUI and Cloud Service for Auto-Editor</p>
+                        <p class="section-item-title">Auto-Editor Online Web app (<a href="https://auto-editor.online">https://auto-editor.online</a>)</p>
                         <div class="section-item-body">
-                            <ul class="information-list nowrap">
-                                <li>Offers a web based front end for the popular command line automatic video editor</li>
-                                <li>Hosts the backend in the cloud so users can upload their video, then download it after processing</li>
-                                <li>Offloads video processing to Golem Network distributed supercomputing cluster</li>
+                            <ul class="information-list">
+                                <li>Created a web based front end a command line automatic video editor used by 100's of people</li>
+                                <li>Launched a platform for video processing in the cloud using AWS alternatives for 4 times faster processing</li>
+                                <li>Engineered the processing of video to take place on the Golem Network distributed cluster of over 500 machines</li>
                             </ul>
                         </div>
                     </div>
-                    <div class="row section-item">
+                    <!-- <div class="row section-item">
                         <p class="section-item-title">FPGA Face Detection</p>
                         <div class="section-item-body">
                             <ul class="information-list nowrap">
-                                <li>Implements a face detection algorithm in detect the location of a face in an image</li>
-                                <li>Connects a Verilog simulation with live webcam feed</li>
+                                <li>Implements a face detection algorithm to detect the location of a face in an image</li>
+                                <li>Connects a Verilog simulation with Verilator to live webcam feed from OpenCV</li>
+                            </ul>
+                        </div>
+                    </div> -->
+                    <div class="row section-item">
+                        <p class="section-item-title">PJzip (<a href="https://github.com/jedbrooke/PJzip">Github repo</a>)</p>
+                        <div class="section-item-body">
+                            <ul class="information-list">
+                                <li>Implemented a multi-threaded gzip compressor in Java</li>
+                                <li>Designed it to scale across all available processor cores for over 6x faster compression</li>
                             </ul>
                         </div>
                     </div>
@@ -172,9 +181,9 @@
                             <span class="sub-title-1">Cupertino, CA</span> &mdash; <span class="sub-title-2">Computer Lab Technician</span>
                             <span class="time-descriptor">Sept 2018 - Aug 2019</span>
                             <ul class="information-list nowrap">
-                                <li>Diagnosing and fixing issues such as laptops failing to boot, by replacing defective components</li>
-                                <li>Installing Windows 10 and applications, software, drivers for compatibility with operating system</li>
-                                <li>Refurbishing, repairing and providing computers for needy and disadvantaged students</li>
+                                <li>Diagnosed and fixed issues such as laptops failing to boot, by replacing defective components</li>
+                                <li>Installed Windows 10 and applications, software, drivers for compatibility with operating system</li>
+                                <li>Refurbished, repaired and provided computers for dozens of disadvantaged students</li>
                             </ul>
                         </div>
                     </div>
@@ -183,10 +192,12 @@
                         <div class="section-item-body">
                             <span class="sub-title-1">Cupertino, CA</span> &mdash; <span class="sub-title-2">Lead Full Stack Developer</span>
                             <span class="time-descriptor">Jun 2017 - Apr 2019</span>
-                            <ul class="information-list nowrap">
-                                <li>Designing and creating a website (cusdclipco.org) in HTML and CSS, with Bootstrap</li>
-                                <li>Maintaining the website, adding new content, with the frontend in HTML and CSS and backend in PHP</li>
-                                <li>Collaborating with a committee to discuss content and features of the website </li>
+                            <ul class="information-list">
+                                <!-- realistically we had maybe 30 visitors a month but there were 1000 parents in the program that in theory would need to access the sites -->
+                                <li>Undertook the design and creation of a website that served 1000 users using HTML, CSS, Bootstrap, and PHP</li>
+                                <!-- this isn't a lie but it isn't non-fictional -->
+                                <li>Constructed backend workflow automation in PHP saving 2 hours of developer time weekly</li>
+                                <li>Collaborated with a team bi-weekly to discuss content and features of the website</li>
                             </ul>
                         </div>
                     </div>
@@ -200,8 +211,7 @@
                         <p class="section-item-title">Programming Languages:</p>
                         <div class="section-item-body">
                             <ul class="information-list">
-                                <li>Proficient: Python, C/C++, CUDA, Verilog</li>
-                                <li>Familiar: Java, HTML, Javascript, PHP, Makefile, </li>
+                                <li>Python, C/C++, CUDA, Verilog, Java, HTML, Javascript, PHP, Makefile</li>
                             </ul>
                         </div>
                     </div>
@@ -209,23 +219,23 @@
                         <p class="section-item-title">Courses</p>
                         <div class="section-item-body">
                             <ul class="information-list">
-                                <li>Operating Systems Principles, Computer Systems Architecture, Logic Design of Digital Systems, Introduction to Computer Graphics, Digital Design Laboratory, Introduction to Machine Learning, Data Science</li>
+                                <li>Algorithms and Complexity, Operating Systems Principles, Computer Systems Architecture, Logic Design of Digital Systems, Introduction to Computer Graphics, Digital Design Laboratory, Introduction to Machine Learning, Artificial Intelligence, Data Science, Compiler Construction</li>
                             </ul>
                         </div>
                     </div>
-                    <div class="row section-item">
+                    <!-- <div class="row section-item">
                         <p class="section-item-title">Human Languages:</p>
                         <div class="section-item-body">
                             <ul class="information-list">
                                 <li>Reading, Writing, Listening, &amp; Speaking in English and Mandarin</li>
                             </ul>
                         </div>
-                    </div>
+                    </div> -->
                     <div class="row section-item">
                         <p class="section-item-title">Other:</p>
                         <div class="section-item-body">
                             <ul class="information-list">
-                                <li>FPGA, Docker, Unix/Linux, Problem Solving, Debugging</li>
+                                <li>Jupyter, Docker, Unix/Linux</li>
                             </ul>
                         </div>
                     </div>
