@@ -1,8 +1,8 @@
-## Here's some stuff that I made
+# Jasper Edbrooke
 
 ## [Resume](resume.html)
 
-### Completed Projects
+## Projects
 1. [Auto Editor on Golem](https://github.com/jedbrooke/golem-auto-editor)<br>
 Now Live on [https://auto-editor.online](https://auto-editor.online)! <br>
 A webUI for a Golem requestor app that runs on the Golem Network decentralized super computer. Allows for offloading the video processing done by [WyattBlue/auto-editor](https://github.com/WyattBlue/auto-editor) to many computers on the network to render videos in a fraction of the time of a single computer.
