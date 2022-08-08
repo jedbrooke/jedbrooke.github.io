@@ -1,6 +1,6 @@
 # Jasper Edbrooke
 
-## [Resume](resume.html)
+## [Resume](resume.pdf)
 
 ## Projects
 1. [Auto Editor on Golem](https://github.com/jedbrooke/golem-auto-editor)<br>
